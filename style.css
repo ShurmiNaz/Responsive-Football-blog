@@ -53,6 +53,18 @@
    ----------------------- */
 
 /*....... main section player intro styles --start--...*/
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .players-section{
+            width: 1050px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 1510px;
+            
+        }
 
      .player-intro{
          width: 330px;
@@ -83,4 +95,48 @@
          margin: 0;
      }
      
-/*....... main section player intro styles --start--...*/
+/*....... main section player intro styles --end--...*/
+
+/* footer part styles */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-part{
+    
+    width: 485px;
+    height: 213px;
+    
+}
+.logo img{
+    width: 90%;
+    height: 110px;
+}
+.footer-icon{
+ margin-left: 30px;
+}
+.footer-icon ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+}
+.footer-icon ul li{
+    display: inline-block;
+    text-align: center;
+}
+.footer-icon ul li a{
+     display: inline-block;
+
+    color: #969BAB;
+    background-color: #E7E7E8;
+    padding: 12px;
+    border-radius: 50%;
+    margin:0px 14px; 
+    font-size: 20px;
+}
+small{
+     margin-left: 130px; 
+}
+ /* footer part style end.. */
