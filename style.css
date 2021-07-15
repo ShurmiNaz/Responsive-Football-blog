@@ -97,7 +97,35 @@
      
 /*....... main section player intro styles --end--...*/
 
-/* footer part styles */
+/* section part two start */
+ .common-style{
+     display: flex;
+     width: 1050px;
+ }
+        
+.section-two{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+   
+}
+.comment-box{
+    width:680px;
+    padding-left: 10px;
+
+}
+.mini-header{
+    background-color:#b8e994 ;
+    font-size: 20px;
+    text-align: center;
+}
+.news img{
+    width: 90%;
+}
+/* section part two start */
+
+
+/* footer part styles start */
 
 footer{
     display: flex;
