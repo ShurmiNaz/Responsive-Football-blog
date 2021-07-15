@@ -32,12 +32,10 @@
     font-size: 18px;
 }
 .button:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 1s ease-in-out;
 }
-.banner{
-    overflow: hidden;
-}
+
 
 .banner img{
     width: 556px;
@@ -70,8 +68,10 @@
          width: 330px;
          height: 474px;
          box-shadow: 0px 0px 10px gray;
-         
-
+     }
+     .player-intro:hover{
+        transform:scale(1.05);
+        transition: transform 1s ease-in-out;
      }
      .player img{
          width: 300px;
@@ -98,6 +98,9 @@
 /*....... main section player intro styles --end--...*/
 
 /* section part two start */
+hr{
+     width: 1050px; border: 5px solid red;
+}
  .common-style{
      display: flex;
      width: 1050px;
@@ -118,6 +121,10 @@
     background-color:#b8e994 ;
     font-size: 20px;
     text-align: center;
+}
+
+.news{
+    margin-left: 25px;
 }
 .news img{
     width: 90%;
