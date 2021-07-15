@@ -32,8 +32,8 @@
     font-size: 18px;
 }
 .button:hover{
-    transform: scale(1.05);
-    transition: transform 1s ease-in-out;
+    transform: scale(1.03);
+    transition: transform 1s ease;
 }
 
 
@@ -175,3 +175,5 @@ small{
      margin-left: 130px; 
 }
  /* footer part style end.. */
+
+ 
